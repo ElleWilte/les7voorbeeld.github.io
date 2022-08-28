@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Tandartsafspraak</title>
+</head>
+<body>
+<h1>Tandartsafspraak</h1>
+<p>
+Een tandarts is gespecialiseerd in mondgezondheid. Tandartsen hebben om hun <br>
+beroep te mogen uitoefenen een academische achtergrond op het gebied van de <br>
+tandheelkunde. In Nederland is de titel tandarts beschermd en om deze te mogen <br>
+voeren moet men in het BIG-register zijn geregistreerd.<br>
+Er zijn in de tandheelkunde, net zoals in de geneeskunde, verschillende <br>
+specialisaties. Een tandarts die in het aanbrengen van beugels is gespecialiseerd <br>
+is een orthodontist, terwijl een specialist in mondziekten, kaak- en <br>
+aangezichtschirurgie (mka-chirurg) zowel tandarts als arts is en in het ziekenhuis<br>
+zwaardere medische ingrepen aan de mond uitvoert. Naast specialisaties kent de <br>
+tandheelkunde ook differentiaties. Een gedifferentieerd tandarts is een tandarts <br>
+die zich op een specifiek deelgebied van de tandheelkunde heeft toegelegd maar <br>
+geen extra bevoegdheden heeft ten opzichte van de tandarts 'algemeen practicus'<br>
+en daarom geen specialist is. Een tandarts-parodontoloog behandelt problemen aan <br>
+het tandvlees, tandarts-implantologen leggen zich toe op het plaatsen van implantaten, <br>
+tandarts-endodontologen op wortelkanaalbehandelingen en tandarts-gnathologen op <br>
+kaakgewrichtsklachten.<br>
+De werkruimte van een tandarts heet in Vlaanderen vaak tandartskabinet, in Nederland<br>
+is het een praktijk. Tandartsen worden bij de behandeling bijgestaan door één of <br>
+meer assistenten. </p> <hr>
+<img src="Afbeeldingen tandarts/kleine jongen.jpg" alt="kleine jongen in de tandartspraktijk" width="300">
+<img src="Afbeeldingen tandarts/op controle.jpg" alt="op controle" width="300">
+<img src="Afbeeldingen tandarts/tanden poetsen.jpg" alt="tanden poetsen" width="300"> <hr>
+<h2> Afspraakformulier <h2>
+<form id="contactform" action="https://formspree.io/f/mrgdgwlq" method="post"> <hr>
+<fieldset>
+<legend>Persoonlijke gegevens</legend><br>
+<label for="naam">naam:</label>
+<input id="naam" type="text" name="naam"><br><br>
+<input type="radio" name="geslacht" value="man" checked>Man
+<input type="radio" name="geslacht" value="vrouw">Vrouw
+<input type="radio" name="geslacht" value="anders">Anders <br><br>
+<label for="adres">adres:</label>
+<input type="text" id="adres" name="adres"><br><br>
+<label for="postcode">postcode:</label>
+<input type="text" id="postcode" name="postcode"><br><br>
+<label for="woonplaats">woonplaats:</label>
+<input type="text" id="woonplaats" name="woonplaats"><br><br>
+<label for="emailadres">emailadres:</label>
+<input type="email" id="emailadres" name="emailadres"><br><br>
+<label for="telefoonnummer">telefoonnummer:</label>
+<input type="tel" id="telefoonnummer" name="telefoonnummer"><br><br>
+<label for="ziekenfonds">ziekenfonds:</label>
+<input type="text" id="ziekenfonds" name="ziekenfonds"><br><br>
+<label for="relatienummer">relatienummer:</label>
+<input type="text" id="relatienummer" name="relatienummer"><br><br>
+<label for="burger service nummer">burger service nummer:</label>
+<input type="text" id="burger service nummer" name="burger service nummer"><br><br>
+<label for="geboortedatum">geboortedatum:</label>
+<input type="date" id="geboortedatum" name="geboortedatum" max="2080-12-31"><br><br>
+</fieldset> <hr>
+<fieldset>
+<legend>Beschrijving van de klachten</legend><br>
+<b> Selecteer een klacht</b><br>
+<input type="checkbox" name="klachten" value="ja">Kiespijn
+<input type="checkbox" name="klachten" value="ja">Cariës (gaatjes)
+<input type="checkbox" name="klachten" value="ja">Tandletsel
+<input type="checkbox" name="klachten" value="ja">Gebitsslijtage en tanderosie
+<input type="checkbox" name="klachten" value="ja">Scheefstand van tanden
+<input type="checkbox" name="klachten" value="ja">Verkleurde tanden
+<input type="checkbox" name="klachten" value="ja">Ontstoken tandvlees
+<input type="checkbox" name="klachten" value="ja">Gevoelige tandhalzen
+<input type="checkbox" name="klachten" value="ja">Abces
+<input type="checkbox" name="klachten" value="ja">Slechte adem
+<input type="checkbox" name="klachten" value="ja">Overige klachten<br><br>
+<label for="foto">Voeg eventueel een foto bij</label>
+<input type="file" id="foto" name="foto"><br><br>
+</fieldset> <hr>
+<fieldset>
+<legend>Toelichting van de klachten</legend><br>
+<b>Licht uw klacht toe (max. 1500 tekens)</b><br>
+<textarea name ="toelichting" maxlength ="1500" placeholder="Uw toelichting">
+</textarea><br><br>
+<b>Vul aanvangsdatum van de klacht in<b><br>
+<input type="date" name="datum" max="2080-12-31"><br><br>
+<button type="submit" name="verzendknop">
+<strong>Verzend</strong></button>
+</fieldset>
+</form>
+</body>
+</html>
